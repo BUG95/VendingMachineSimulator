@@ -87,6 +87,7 @@ namespace VendingMachineSimulator
             }
             Console.Clear();
             Console.WriteLine("You bought " + quantity + " " + item._item + " for " + quantity * item._price + "$");
+            item.ReduceInventory(quantity);
             if (paidAmount > quantity * item._price)
                 Console.WriteLine("Your change is " + Math.Round((paidAmount-quantity * item._price ),2)+"$ (out of "+paidAmount+"$)");
             Console.WriteLine("\nPress 1 if you want to buy something else");
@@ -105,7 +106,6 @@ namespace VendingMachineSimulator
             if(finalChoice == 1)
             {
                 Console.Clear();
-                item.ReduceInventory(quantity);
                 CheckItems();
                 DisplayMachine();
                 return true;
