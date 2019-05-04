@@ -1,0 +1,8 @@
+{Item: "Pepsi", Price: 2.85$, Quantity: "21"}
+{Item: "Diet Pepsi", Price: 3$, Quantity: "22"}
+{Item: "Coke", Price: 3$, Quantity: "25"}
+{Item: "Diet Coke", Price: 3.2$, Quantity: "25"}
+{Item: "Kit-Kat", Price: 0.95$, Quantity: "23"}
+{Item: "Twix", Price: 0.89$, Quantity: "24"}
+{Item: "Lays Potato Chips", Price: 1.15$, Quantity: "25"}
+{Item: "Cheetos", Price: 1.08$, Quantity: "25"}
